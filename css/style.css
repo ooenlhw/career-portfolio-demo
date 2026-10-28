@@ -1,0 +1,183 @@
+h1{padding-left: 17px;}
+
+a {
+  color: #2980B9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3498DB;
+}
+
+
+.sidebar {
+  float: left;
+  width: 220px;
+}
+
+.cats {
+  list-style: none;
+  padding: 0;
+}
+
+.cats li a {
+  display: block;
+  font-size: 15px;
+  padding: 8px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cats li a:hover {
+  background: #efefef;
+}
+
+.main {
+  float: right;
+  width: 900px;
+  margin-left: 5px;
+  background: #fff;
+}
+
+.carmain {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.carmain li {
+  width: 870px;
+  font-size: 14px;
+}
+
+li.high{height: 50px;}
+
+a.del {
+  color: red;
+}
+
+a.apply-cv{
+  text-decoration: none;
+  color: #fff;
+  background:#2196f3;
+  width: 120px;
+  padding:8px 0;
+  display: block;
+  text-align: center;
+  margin:10px;
+
+}
+a.apply-cv:hover,a.apply-cv:focus{
+  text-decoration: none;
+  color: #fff;
+  background:darkblue;
+}
+
+.detail {
+  padding: 20px;
+  background: #fff;
+  box-shadow:0 4px 8px 0 rgba(33,150,243,0.3);
+}
+
+table {
+  margin: 20px;
+  border-spacing: 1px;
+  background: #16A085;
+}
+
+td {
+  background: white;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+th {
+  color: white;
+  padding: 8px;
+}
+
+
+form label {
+  display: block;
+  margin-top: 10px;
+  color: #000;
+}
+
+label.error {
+  color: #ff6600;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: -1px;
+}
+
+input[type=text],
+input[type=password],
+textarea,
+select {
+  font-family: verdana;
+  border: 1px solid #ccc;
+  padding: 6px;
+  width: 250px;
+  background: #fff;
+}
+
+
+textarea {
+  height: 100px;
+}
+
+input[type=submit]{
+  border: 1px solid #1ABC9C;
+  padding: 0px 0px;
+  margin-right: 10px;
+  background: #2196f3;
+  font-size: 14px;
+  color: #fff;
+  width: 130px;
+  text-align: center;
+  display: block;
+}
+
+
+.search {
+  margin-top: 20px;
+}
+.search input[type=text] {
+  width: 190px;
+  margin-left: 2px;
+}
+.search input[type=submit] {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  background: transparent url(../images/search.png) no-repeat center center;
+  border: 0 none;
+  padding: 0;
+  margin: 0 0 0 -5px;
+}
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #75a8f3 ;
+}
+
+ul.menu li {
+  float: left;
+  border-right: 1px solid #1ABC9C;
+}
+
+ul.menu a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+ul.menu a:hover {
+  background: #1ABC9C;
+
+}
+
+ul.circle{list-style-type: square;}
